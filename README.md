@@ -7,7 +7,7 @@ Fórmula matemática que calcula a disponibilidade de um serviço replicado em v
     k – número mínimo de servidores disponíveis necessário para o serviço ser acessado de forma consistente (0 < k ≤ n)
     p – probabilidade de cada servidor estar disponível em um dado instante (0 ≤ p ≤ 1)
 
-∑(i=0 to k) [C(n,i) * p^i * (1-p)^(n-i)]
+∑(i=k to n) [C(n,i) * p^i * (1-p)^(n-i)]
 
 onde:
 
